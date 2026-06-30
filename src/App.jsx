@@ -2,6 +2,9 @@ import { useState } from "react";
 import activities from "./data/activities";
 import documentosLicencaSanitaria from "./data/documents";
 
+import logoAndradina from './assets/andradina.png';
+import logoGithub from './assets/github.png';
+
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedActivity, setSelectedActivity] = useState(null);
@@ -32,7 +35,7 @@ function App() {
       {/* Cabeçalho Escuro */}
       <div className="bg-[#212529] text-white p-2 text-center">
         <h1 className="flex items-center justify-center text-2xl font-medium m-0">
-          <img src="/andradina.png" alt="Logo" className="w-[50px] mr-3" />
+          <img src={logoAndradina} alt="Logo" className="w-12.5 mr-3" />
           VISAM - Andradina/SP
         </h1>
       </div>
@@ -230,6 +233,7 @@ function App() {
       {/* Rodapé Escuro */}
       <div className="bg-[#212529] text-white text-center p-2 mt-auto">
         <p className="m-0 text-sm">
+          <img src={logoGithub} alt="GitHub" className="inline w-4 h-4 mx-1" />
           Desenvolvido por{" "}
           <a
             href="https://github.com/simonntech"
@@ -237,7 +241,6 @@ function App() {
             rel="noreferrer"
             className="text-white underline hover:text-gray-300"
           >
-            {/* Opcional: Adicione a tag <img src="/github.png" className="inline w-4 h-4 mx-1" /> se quiser a logo */}
             SimonTech
           </a>
         </p>
