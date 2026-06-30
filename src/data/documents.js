@@ -303,3 +303,5 @@ const documentosLicencaSanitaria = [
     exigencia: "Variável"
   }
 ];
+
+export default documentosLicencaSanitaria;
