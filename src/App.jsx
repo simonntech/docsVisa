@@ -2,8 +2,8 @@ import { useState } from "react";
 import activities from "./data/activities";
 import documentosLicencaSanitaria from "./data/documents";
 
-import logoAndradina from './assets/andradina.png';
-import logoGithub from './assets/github.png';
+import logoAndradina from "./assets/andradina.png";
+import logoGithub from "./assets/github.png";
 
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -47,6 +47,20 @@ function App() {
           <h3 className="text-2xl font-medium text-gray-800 m-0">
             Documentos Exigidos - Licença Sanitária
           </h3>
+          <p>
+            <span>
+              Conforme{" "}
+              <a
+                href="https://cvs.saude.sp.gov.br/"
+                className="text-blue-500 hover:text-blue-700"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Portaria CVS 1 de 2024
+              </a>
+              , atualizada em 13/05/2026.
+            </span>
+          </p>
           <p className="text-gray-500 mt-1 mb-0">
             Busque por atividade, descrição ou CNAE
           </p>
