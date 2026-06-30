@@ -21,7 +21,7 @@ function App() {
     );
   });
 
-  // Função para buscar os detalhes do documento a partir do seu código
+  // Função para buscar os detalhes do documento
   const getDocumentsDetails = (docCodes) => {
     return docCodes
       .map((code) =>
