@@ -885,6 +885,502 @@ const activities = [
       durante: [21, 23, 26, 27, 29, 38, 39, 40],
     },
   },
+  {
+    cnae: "0892-4/03",
+    descricao: "REFINO E OUTROS TRATAMENTOS DO SAL",
+    risco: "ALTO",
+    compreende: [
+      "Moagem, purificação, refino e outros tratamentos do sal associados à extração.",
+      "Depósito fechado para armazenamento de sal moído, purificado, refinado ou tratado associado à extração.",
+      "Laboratório de Controle de Qualidade próprio instalado em endereço diverso do estabelecimento fabril.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1031-7/00",
+    descricao: "FABRICAÇÃO DE CONSERVAS DE FRUTAS",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação de frutas em calda (compotas), doces em massa, pastas, geleias, concentrados de tomate (extratos, purês, polpas) e leite de coco.",
+      "Conservas de frutas (em álcool, secas, desidratadas, purês e semelhantes).",
+      "Beneficiamento, torrefação e produção de sementes oleaginosas (castanha de caju, castanha-do-pará, amendoim, soja, etc.).",
+      "Depósitos fechados de conservas de frutas, doces em massa, concentrados de tomate ou leite de coco industrial.",
+      "Laboratório de Controle de Qualidade próprio instalado em endereço diverso do estabelecimento fabril.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1032-5/01",
+    descricao: "FABRICAÇÃO DE CONSERVAS DE PALMITO",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação de conservas de palmito e seus depósitos fechados correspondentes.",
+      "Laboratório de Controle de Qualidade próprio instalado em endereço diverso.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1032-5/99",
+    descricao:
+      "FABRICAÇÃO DE CONSERVAS DE LEGUMES E OUTROS VEGETAIS, EXCETO PALMITO",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação de vegetais desidratados, liofilizados, farinha/sêmola de batata, batata frita e aperitivos à base de batata.",
+      "Fabricação de conservas de legumes, outros vegetais e cogumelos comestíveis (mediante congelamento, cozimento ou imersão).",
+      "Depósitos fechados e Laboratório de Controle de Qualidade em endereço diverso.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52, 58],
+    },
+  },
+  {
+    cnae: "1041-4/00",
+    descricao: "FABRICAÇÃO DE ÓLEOS VEGETAIS EM BRUTO, EXCETO ÓLEO DE MILHO",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação de óleos vegetais em bruto comestíveis (soja, algodão, oliva, girassol, etc.).",
+      "Obtenção de tortas, farinhas, farelos de sementes oleaginosas e subprodutos residuais para fins alimentícios.",
+      "Depósitos fechados e Laboratório de Controle de Qualidade integrado.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1042-2/00",
+    descricao: "FABRICAÇÃO DE ÓLEOS VEGETAIS REFINADOS, EXCETO ÓLEO DE MILHO",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação de óleos vegetais refinados comestíveis e ceras de origem vegetal para fins alimentícios.",
+      "Beneficiamentos processados em óleos vegetais (sopragem, oxidação, polimerização, hidrogenação, etc.) para fins alimentícios.",
+      "Depósitos fechados de armazenamento e Laboratório de Controle de Qualidade em endereço diverso.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1043-1/00",
+    descricao:
+      "FABRICAÇÃO DE MARGARINA E OUTRAS GORDURAS VEGETAIS E DE ÓLEOS NÃO COMESTÍVEIS DE ANIMAIS",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação de gorduras vegetais comestíveis e preparações à base de creme vegetal para fins alimentícios.",
+      "Depósitos fechados e Laboratório de Controle de Qualidade em endereço diverso.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1053-8/00",
+    descricao: "FABRICAÇÃO DE SORVETES E OUTROS GELADOS COMESTÍVEIS",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação de gelados comestíveis (sorvetes, picolés, bolos e tortas geladas), produtos à base de açaí e bases líquidas/pastosas para sorvetes.",
+      "Depósitos fechados e Laboratório de Controle de Qualidade em endereço diverso.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 52],
+    },
+  },
+  {
+    cnae: "1061-9/01",
+    descricao: "BENEFICIAMENTO DE ARROZ",
+    risco: "ALTO",
+    compreende: [
+      "Beneficiamento do arroz (descascado, moído, branqueado, polido, parboilizado e convertido).",
+      "Depósitos fechados e Laboratório de Controle de Qualidade em endereço diverso.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 33, 36, 38, 39, 40, 43, 45, 52],
+    },
+  },
+  {
+    cnae: "1061-9/02",
+    descricao: "FABRICAÇÃO DE PRODUTOS DO ARROZ",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação de farinhas, flocos e outros produtos de arroz.",
+      "Depósitos fechados e Laboratório de Controle de Qualidade em endereço diverso.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 38, 39, 40, 43, 52],
+    },
+  },
+  {
+    cnae: "1062-7/00",
+    descricao: "MOAGEM DE TRIGO E FABRICAÇÃO DE DERIVADOS",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação de farinha de trigo (inclusive integral), sêmolas, farelo e outros derivados.",
+      "Fabricação de farinhas e massas em pó mescladas ou preparadas para indústrias de pães, bolos e biscoitos.",
+      "Depósitos fechados de estocagem e Laboratório de Controle de Qualidade.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1063-5/00",
+    descricao: "PRODUÇÃO DE FARINHA DE MANDIOCA E DERIVADOS",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação de farinha de mandioca e outros derivados (raspa, farinha de raspa, etc.).",
+      "Depósitos fechados e Laboratório de Controle de Qualidade em endereço diverso.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1064-3/00",
+    descricao:
+      "FABRICAÇÃO DE FARINHA DE MILHO E DERIVADOS EXCETO ÓLEO DE MILHO",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação de farinhas de milho (fubá, creme, gritz), canjica, farelo e alimentos termicamente tratados à base de milho (pós, flocos).",
+      "Atividades de preparação de milho para pipoca.",
+      "Depósitos fechados e Laboratório de Controle de Qualidade integrado.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1065-1/01",
+    descricao: "FABRICAÇÃO DE AMIDOS E FÉCULAS DE VEGETAIS",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação de amidos e féculas de vegetais (milho, arroz, trigo, mandioca), dextrose (açúcar de milho) e derivados (glicose, maltase, inulina, glúten, tapioca).",
+      "Depósitos fechados de estocagem industrial e Laboratório de Controle de Qualidade.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1065-1/02",
+    descricao: "FABRICAÇÃO DE ÓLEO DE MILHO EM BRUTO",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação e armazenamento de óleo de milho em bruto de fabricação industrial.",
+      "Laboratório de Controle de Qualidade próprio instalado em endereço diverso.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1065-1/03",
+    descricao: "FABRICAÇÃO DE ÓLEO DE MILHO REFINADO",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação e armazenamento de óleos de milho refinado de fabricação industrial.",
+      "Laboratório de Controle de Qualidade próprio instalado em endereço diverso.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1069-4/00",
+    descricao:
+      "MOAGEM DE FABRICAÇÃO DE PRODUTOS DE ORIGEM VEGETAL, NÃO ESPECIFICADOS ANTERIORMENTE",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação de farinhas de araruta, centeio, cevada, aveia, legumes secos e farinhas compostas.",
+      "Fabricação de germens de cereais, aperitivos e alimentos à base destes produtos.",
+      "Depósitos fechados e Laboratório de Controle de Qualidade próprio.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1071-6/00",
+    descricao: "FABRICAÇÃO DE AÇUCAR EM BRUTO",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação de açúcar cristal, demerara, mascavo e subprodutos (rapadura, melado, melaço).",
+      "Depósitos fechados de açúcar bruto e Laboratório de Controle de Qualidade em endereço diverso.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1072-4/01",
+    descricao: "FABRICAÇÃO DE AÇUCAR DE CANA REFINADO",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação de açúcar moído, triturado, refinado, líquido, glicose de cana e açúcar invertido.",
+      "Depósitos fechados e Laboratório de Controle de Qualidade correspondente.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1072-4/02",
+    descricao: "FABRICAÇÃO DE AÇUCAR DE CEREAIS (DEXTROSE) E DE BETERRABA",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação de açúcar de cereais (dextrose) e de beterraba moído, triturado, refinado e líquido.",
+      "Depósitos fechados de estocagem e Laboratório de Controle de Qualidade em endereço diverso.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1081-3/02",
+    descricao: "TORREFAÇÃO E MOAGEM DE CAFÉ",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação de café torrado em grãos, torrado e moído ou café descafeinado.",
+      "Depósitos fechados e Laboratório de Controle de Qualidade integrado.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1082-1/00",
+    descricao: "FABRICAÇÃO DE PRODUTOS A BASE DE CAFÉ",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação de café solúvel, extratos, concentrados e outras preparações à base de café.",
+      "Depósitos fechados e Laboratório de Controle de Qualidade próprio.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1091-1/01",
+    descricao: "FABRICAÇÃO DE PRODUTOS DE PANIFICAÇÃO INDUSTRIAL",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação industrial de pães, roscas, bolos, tortas, farinha de rosca e panificação congelada.",
+      "Depósitos fechados de panificação e Laboratório de Controle de Qualidade.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1091-1/02",
+    descricao:
+      "FABRICAÇÃO DE PRODUTOS DE PADARIA E CONFEITARIA COM PREDOMINÂNCIA DE PRODUÇÃO PRÓPRIA",
+    risco: "MÉDIO",
+    compreende: [
+      "Padaria tradicional e similares com venda predominante de fabricação própria (pães, doces e produtos de confeitaria).",
+    ],
+    documentos: {
+      previos: [],
+      durante: [23, 29, 36, 38, 39, 40, 43, 46],
+    },
+  },
+  {
+    cnae: "1092-9/00",
+    descricao: "FABRICAÇÃO DE BISCOITOS E BOLACHAS",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação de biscoitos, bolachas, casquinhas para sorvetes e formas para recheios de doces.",
+      "Depósitos fechados industriais e Laboratório de Controle de Qualidade próprio.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1093-7/01",
+    descricao: "FABRICAÇÃO DE PRODUTOS DERIVADOS DO CACAU E DE CHOCOLATES",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação de pasta de cacau, derivados (cacau em pó, manteiga de cacau), bombons, chocolates e farinhas à base de chocolate.",
+      "Depósitos fechados e Laboratório de Controle de Qualidade instalado em endereço diverso.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1093-7/02",
+    descricao: "PRODUÇÃO DE FRUTAS CRISTALIZADAS, BALAS E SEMELHANTES",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação de balas, confeitos, gomas de mascar e frutas cristalizadas.",
+      "Depósitos fechados de doces industriais e Laboratório de Controle de Qualidade.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1094-5/00",
+    descricao: "FABRICAÇÃO DE MASSAS ALIMENTÍCIAS",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação de massas secas (talharim, espaguete), ou preparadas frescas, congeladas e resfriadas (lasanha, canelone) com ou sem recheio.",
+      "Depósitos fechados e Laboratório de Controle de Qualidade próprio.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1095-3/00",
+    descricao: "FABRICAÇÃO DE ESPECIARIAS, MOLHOS, TEMPEROS E CONDIMENTOS",
+    risco: "ALTO",
+    compreende: [
+      "Preparação de especiarias/condimentos, molhos de tomate preparados, molhos em conserva, maionese, bases para molhos e temperos diversos desidratados/liofilizados.",
+      "Depósitos fechados industriais e Laboratório de Controle de Qualidade.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1096-1/00",
+    descricao: "FABRICAÇÃO DE ALIMENTOS E PRATOS PRONTOS",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação de pratos prontos/refeições refrigeradas ou congeladas à base de vegetais.",
+      "Doces de matéria-prima diferente de leite e frutas, sopas líquidas, sobremesas prontas e salgadinhos (empada, coxinha, esfirra, etc.).",
+      "Depósitos fechados e Laboratório de Controle de Qualidade em endereço diverso.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1099-6/02",
+    descricao: "FABRICAÇÃO DE PÓS ALIMENTÍCIOS",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação, depósito fechado e Laboratório de Controle de Qualidade de pós para pudins, gelatinas e similares.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 36, 38, 39, 40, 43, 45, 52],
+    },
+  },
+  {
+    cnae: "1099-6/04",
+    descricao: "FABRICAÇÃO DE GELO COMUM",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação, depósito e controle laboratorial de gelo para consumo humano ou que entre em contato com alimentos.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1099-6/05",
+    descricao: "FABRICAÇÃO DE PRODUTOS PARA INFUSÃO",
+    risco: "ALTO",
+    compreende: [
+      "Beneficiamento de chá, mate ou outras ervas para infusão, depósitos fechados e Laboratório de Controle de Qualidade próprio.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1099-6/06",
+    descricao: "FABRICAÇÃO DE ADOÇANTES NATURAIS E ARTIFICIAIS",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação de açúcar de stévia, adoçantes naturais e artificiais.",
+      "Depósitos fechados de adoçantes e Laboratório de Controle de Qualidade.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1099-6/07",
+    descricao: "FABRICAÇÃO DE ALIMENTOS DIETÉTICOS E COMPLEMENTOS ALIMENTARES",
+    risco: "ALTO",
+    compreende: [
+      "Alimentos para dietas controladas de açúcares, restrição de nutrientes ou controle de peso.",
+      "Fabricação de sal hipossódico/sucedâneos do sal, suplementos alimentares comuns, enzimáticos ou probióticos.",
+      "Depósitos fechados industriais e Laboratório de Controle de Qualidade.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1099-6/99",
+    descricao:
+      "FABRICAÇÃO DE OUTROS PRODUTOS ALIMENTÍCIOS NÃO ESPECIFICADOS ANTERIORMENTE",
+    risco: "ALTO",
+    compreende: [
+      "Elaboração de sal de cozinha iodado, alimentos infantis, para idosos, nutrição enteral, novos alimentos e ingredientes funcionais.",
+      "Substitutos vegetais do leite (soja, arroz, queijo de soja), cogumelos processados, proteínas vegetais e sopas em pó/tabletes.",
+      "Guaraná em pó/bastão, aperitivos salgados, alimentos pré-preparados para restaurantes e vegetais minimamente processados.",
+      "Depósitos fechados segmentados de alimentos e Laboratório de Controle de Qualidade.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
+  {
+    cnae: "1122-4/04",
+    descricao: "FABRICAÇÃO DE BEBIDAS ISOTÔNICAS",
+    risco: "ALTO",
+    compreende: [
+      "Fabricação, depósitos fechados e Laboratório de Controle de Qualidade de bebidas isotônicas de fabricação industrial.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
+  },
 ];
 
 export default activities;
