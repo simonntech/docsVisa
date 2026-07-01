@@ -1663,12 +1663,12 @@ const activities = [
     compreende: [
       "Estabelecimento fabril de fraldas descartáveis.",
       "Depósito fechado de armazenamento de fraldas descartáveis.",
-      "Laboratório de Controle de Qualidade próprio instalado em endereço diverso do estabelecimento fabril."
+      "Laboratório de Controle de Qualidade próprio instalado em endereço diverso do estabelecimento fabril.",
     ],
     documentos: {
       previos: [2, 3, 4, 5, 6, 9],
-      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52]
-    }
+      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
   },
   {
     cnae: "1742-7/02",
@@ -1676,38 +1676,39 @@ const activities = [
     risco: "ALTO",
     compreende: [
       "Estabelecimento fabril de absorventes e tampões higiênicos.",
-      "Depósito fechado de armazenamento e Laboratório de Controle de Qualidade em endereço diverso."
+      "Depósito fechado de armazenamento e Laboratório de Controle de Qualidade em endereço diverso.",
     ],
     documentos: {
       previos: [2, 3, 4, 5, 6, 9],
-      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52]
-    }
+      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
   },
   {
     cnae: "2063-1/00",
-    descricao: "FABRICAÇÃO DE COSMÉTICOS, PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL",
+    descricao:
+      "FABRICAÇÃO DE COSMÉTICOS, PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL",
     risco: "ALTO",
     compreende: [
       "Fabricação de cosméticos, produtos de higiene, perfumes, repelentes de uso tópico, fios/fitas dentais e hastes flexíveis com algodão.",
       "Fabricação de lenços umedecidos para higiene, lenços de papel especial, discos demaquilantes e odorizantes de ambientes.",
-      "Depósitos fechados de estocagem e Laboratório de Controle de Qualidade próprio em endereço diverso."
+      "Depósitos fechados de estocagem e Laboratório de Controle de Qualidade próprio em endereço diverso.",
     ],
     documentos: {
       previos: [2, 3, 4, 5, 6, 9],
-      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52]
-    }
+      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
   },
   {
     cnae: "3291-4/00",
     descricao: "FABRICAÇÃO DE ESCOVAS, PINCÉIS E VASSOURAS",
     risco: "ALTO",
     compreende: [
-      "Fabricação, depósito fechado e laboratório analítico de escovas dentais para uso humano."
+      "Fabricação, depósito fechado e laboratório analítico de escovas dentais para uso humano.",
     ],
     documentos: {
       previos: [2, 3, 4, 5, 6, 9],
-      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52]
-    }
+      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
   },
   {
     cnae: "2052-5/00",
@@ -1715,12 +1716,12 @@ const activities = [
     risco: "ALTO",
     compreende: [
       "Fabricação de inseticidas, moluscicidas, rodenticidas e repelentes químicos contra animais sinantrópicos indesejáveis.",
-      "Fabricação de produtos para jardinagem amadora, depósitos e Laboratório de Controle de Qualidade."
+      "Fabricação de produtos para jardinagem amadora, depósitos e Laboratório de Controle de Qualidade.",
     ],
     documentos: {
       previos: [2, 3, 4, 5, 6, 9],
-      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52]
-    }
+      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
   },
   {
     cnae: "2061-4/00",
@@ -1728,12 +1729,12 @@ const activities = [
     risco: "ALTO",
     compreende: [
       "Fabricação de sabões e detergentes para uso doméstico, institucional e profissional.",
-      "Fabricação de amaciantes ou suavizantes de tecidos, depósitos fechados e laboratório próprio."
+      "Fabricação de amaciantes ou suavizantes de tecidos, depósitos fechados e laboratório próprio.",
     ],
     documentos: {
       previos: [2, 3, 4, 5, 6, 9],
-      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52]
-    }
+      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
   },
   {
     cnae: "2062-2/00",
@@ -1743,12 +1744,12 @@ const activities = [
       "Fabricação de alvejantes, branqueadores, desincrustrantes, saponáceos, ceras, lustradores e removedores.",
       "Fabricação de neutralizadores, eliminadores ou odorizantes de odores ambientais.",
       "Fabricação de domissanitários com ação antimicrobiana (hipoclorito de sódio, desinfetantes, algicidas, potabilizadores) e produtos biológicos.",
-      "Depósitos fechados de estocagem e Laboratório de Controle de Qualidade integrado."
+      "Depósitos fechados de estocagem e Laboratório de Controle de Qualidade integrado.",
     ],
     documentos: {
       previos: [2, 3, 4, 5, 6, 9],
-      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52]
-    }
+      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
   },
   {
     cnae: "2014-2/00",
@@ -1757,12 +1758,12 @@ const activities = [
     compreende: [
       "Fabricação de gases medicinais (líquidos e comprimidos) para fins terapêuticos e misturas medicinais.",
       "Fabricação de gases elementares (oxigênio e nitrogênio) e óxido de etileno para esterilização.",
-      "Depósitos fechados e Laboratório de Controle de Qualidade próprio em endereço diverso."
+      "Depósitos fechados e Laboratório de Controle de Qualidade próprio em endereço diverso.",
     ],
     documentos: {
       previos: [2, 3, 4, 5, 6, 9],
-      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52]
-    }
+      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
   },
   {
     cnae: "2121-1/01",
@@ -1773,12 +1774,12 @@ const activities = [
       "Fabricação de medicamentos opoterápicos, soros, vacinas, derivados do sangue e substâncias radioativas terapêuticas/diagnósticas.",
       "Soluções parenterais de grande volume (SPGV) e pequeno volume (SPPV); antissépticos, bactericidas e germicidas profiláticos.",
       "Fabricação de curativos, bandagens, gazes e hastes impregnadas com substâncias terapêuticas.",
-      "Depósitos fechados e Laboratório de Controle de Qualidade próprio em endereço diverso."
+      "Depósitos fechados e Laboratório de Controle de Qualidade próprio em endereço diverso.",
     ],
     documentos: {
       previos: [2, 3, 4, 5, 6, 9],
-      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 52]
-    }
+      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 52],
+    },
   },
   {
     cnae: "2121-1/02",
@@ -1786,12 +1787,12 @@ const activities = [
     risco: "ALTO",
     compreende: [
       "Fabricação e depósitos fechados de especialidades farmacêuticas homeopáticas para uso humano.",
-      "Laboratório de Controle de Qualidade próprio instalado em endereço diverso do estabelecimento fabril."
+      "Laboratório de Controle de Qualidade próprio instalado em endereço diverso do estabelecimento fabril.",
     ],
     documentos: {
       previos: [2, 3, 4, 5, 6, 9],
-      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 49, 52]
-    }
+      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 49, 52],
+    },
   },
   {
     cnae: "2121-1/03",
@@ -1799,12 +1800,12 @@ const activities = [
     risco: "ALTO",
     compreende: [
       "Fabricação e depósitos fechados de especialidades farmacêuticas fitoterápicas para uso humano.",
-      "Laboratório de Controle de Qualidade próprio instalado em endereço diverso do estabelecimento fabril."
+      "Laboratório de Controle de Qualidade próprio instalado em endereço diverso do estabelecimento fabril.",
     ],
     documentos: {
       previos: [2, 3, 4, 5, 6, 9],
-      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52]
-    }
+      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
   },
   {
     cnae: "2123-8/00",
@@ -1812,12 +1813,12 @@ const activities = [
     risco: "ALTO",
     compreende: [
       "Fabricação de medicamentos farmacopeicos ou oficinais (água oxigenada 10 vols., tintura de iodo, etc.) e antissépticos cirúrgicos.",
-      "Depósitos fechados de estocagem e Laboratório de Controle de Qualidade correspondente."
+      "Depósitos fechados de estocagem e Laboratório de Controle de Qualidade correspondente.",
     ],
     documentos: {
       previos: [2, 3, 4, 5, 6, 9],
-      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52]
-    }
+      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
   },
   {
     cnae: "2110-6/00",
@@ -1826,24 +1827,24 @@ const activities = [
     compreende: [
       "Fabricação de insumos farmacêuticos ativos (IFAs) por síntese química, extração vegetal/animal ou via biotecnológica.",
       "Fabricação de excipientes, adjuvantes, essências/aromas e insumos sob controle especial ou precursores.",
-      "Depósitos fechados de insumos e Laboratório de Controle de Qualidade próprio."
+      "Depósitos fechados de insumos e Laboratório de Controle de Qualidade próprio.",
     ],
     documentos: {
       previos: [2, 3, 4, 5, 6, 9],
-      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52]
-    }
+      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
   },
   {
     cnae: "1099-6/03",
     descricao: "FABRICAÇÃO DE FERMENTOS E LEVEDURAS",
     risco: "ALTO",
     compreende: [
-      "Fabricação, depósito fechado e laboratório de monitoramento analítico de fermentos e leveduras."
+      "Fabricação, depósito fechado e laboratório de monitoramento analítico de fermentos e leveduras.",
     ],
     documentos: {
       previos: [2, 3, 4, 5, 6, 9],
-      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52]
-    }
+      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
   },
   {
     cnae: "2093-2/00",
@@ -1852,12 +1853,12 @@ const activities = [
     compreende: [
       "Fabricação de aditivos alimentares e coadjuvantes de tecnologia (corantes, pigmentos, ácidos graxos, conservadores, espessantes) utilizando ou não precursores.",
       "Fabricação de extratos aromáticos naturais, resinoides, óleos essenciais e misturas odoríferas para cosméticos e saneantes que utilizam precursores.",
-      "Depósitos fechados de insumos/aditivos e Laboratório de Controle de Qualidade integrado."
+      "Depósitos fechados de insumos/aditivos e Laboratório de Controle de Qualidade integrado.",
     ],
     documentos: {
       previos: [2, 3, 4, 5, 6, 9],
-      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52]
-    }
+      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 52],
+    },
   },
   {
     cnae: "4621-4/00",
@@ -1866,12 +1867,12 @@ const activities = [
     compreende: [
       "Estabelecimento comercial atacadista que armazena café em grão, em coco, ou verde.",
       "Estabelecimento comercial atacadista que contrata local de armazenamento para café em grão, em coco, ou verde.",
-      "Depósito fechado no qual se armazenam cafés em grão, em coco e ou verde."
+      "Depósito fechado no qual se armazenam cafés em grão, em coco e ou verde.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 36, 38, 39, 40, 43, 46]
-    }
+      durante: [23, 29, 36, 38, 39, 40, 43, 46],
+    },
   },
   {
     cnae: "4622-2/00",
@@ -1880,12 +1881,12 @@ const activities = [
     compreende: [
       "Estabelecimento comercial atacadista que armazena soja.",
       "Estabelecimento comercial atacadista que contrata local de armazenamento para soja.",
-      "Depósito fechado no qual se armazena soja."
+      "Depósito fechado no qual se armazena soja.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 36, 38, 39, 40, 43, 46]
-    }
+      durante: [23, 29, 36, 38, 39, 40, 43, 46],
+    },
   },
   {
     cnae: "4623-1/05",
@@ -1894,12 +1895,12 @@ const activities = [
     compreende: [
       "Estabelecimento comercial atacadista que armazena cacau (em bagas ou em amêndoas).",
       "Estabelecimento comercial atacadista que contrata local de armazenamento para cacau (em bagas ou em amêndoas).",
-      "Depósito fechado no qual se armazena cacau (em bagas ou em amêndoas)."
+      "Depósito fechado no qual se armazena cacau (em bagas ou em amêndoas).",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 36, 38, 39, 40, 43, 46]
-    }
+      durante: [23, 29, 36, 38, 39, 40, 43, 46],
+    },
   },
   {
     cnae: "4631-1/00",
@@ -1909,12 +1910,12 @@ const activities = [
       "Estabelecimento comercial atacadista que armazena leite resfriado, pasteurizado, aromatizado e em pó.",
       "Estabelecimento comercial atacadista que armazena derivados do leite, tais como: manteigas, iogurtes, queijos, requeijões e similares.",
       "Estabelecimento comercial atacadista que armazena margarinas.",
-      "Estabelecimento comercial atacadista que contrata local de armazenamento ou possui depósito fechado para leites, laticínios e margarina."
+      "Estabelecimento comercial atacadista que contrata local de armazenamento ou possui depósito fechado para leites, laticínios e margarina.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 36, 38, 39, 40, 43, 46]
-    }
+      durante: [23, 29, 36, 38, 39, 40, 43, 46],
+    },
   },
   {
     cnae: "4632-0/01",
@@ -1922,64 +1923,66 @@ const activities = [
     risco: "MÉDIO",
     compreende: [
       "Estabelecimento comercial atacadista de leguminosas e cereais beneficiados (arroz, feijão, milho, trigo, centeio, etc.).",
-      "Estabelecimento comercial atacadista que contrata local de armazenamento ou possui depósito fechado de cereais beneficiados."
+      "Estabelecimento comercial atacadista que contrata local de armazenamento ou possui depósito fechado de cereais beneficiados.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 36, 38, 39, 40, 43, 46]
-    }
+      durante: [23, 29, 36, 38, 39, 40, 43, 46],
+    },
   },
   {
     cnae: "4632-0/02",
     descricao: "COMÉRCIO ATACADISTA DE FARINHAS, AMIDOS E FÉCULAS",
     risco: "MÉDIO",
     compreende: [
-      "Estabelecimento comercial atacadista, contratação de local de armazenamento e depósito fechado para farinhas, amidos e féculas."
+      "Estabelecimento comercial atacadista, contratação de local de armazenamento e depósito fechado para farinhas, amidos e féculas.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 36, 38, 39, 40, 43, 46]
-    }
+      durante: [23, 29, 36, 38, 39, 40, 43, 46],
+    },
   },
   {
     cnae: "4632-0/03",
-    descricao: "COMÉRCIO ATACADISTA DE CEREAIS E LEGUMINOSAS BENEFICIADOS, FARINHAS, AMIDOS E FÉCULAS COM ATIVIDADE DE FRACIONAMENTO E ACONDICIONAMENTO ASSOCIADA",
+    descricao:
+      "COMÉRCIO ATACADISTA DE CEREAIS E LEGUMINOSAS BENEFICIADOS, FARINHAS, AMIDOS E FÉCULAS COM ATIVIDADE DE FRACIONAMENTO E ACONDICIONAMENTO ASSOCIADA",
     risco: "ALTO",
     compreende: [
       "Estabelecimento comercial atacadista de leguminosas com atividades de fracionamento e acondicionamento associadas.",
       "Estabelecimento comercial atacadista de leguminosas com serviço de empacotamento por conta própria.",
-      "Depósito fechado no qual se armazenam as leguminosas fracionadas."
+      "Depósito fechado no qual se armazenam as leguminosas fracionadas.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 38, 39, 40, 43]
-    }
+      durante: [23, 29, 38, 39, 40, 43],
+    },
   },
   {
     cnae: "4633-8/01",
-    descricao: "COMÉRCIO ATACADISTA DE FRUTAS, VERDURAS, RAÍZES, TUBÉRCULOS, HORTALIÇAS E LEGUMES FRESCOS",
+    descricao:
+      "COMÉRCIO ATACADISTA DE FRUTAS, VERDURAS, RAÍZES, TUBÉRCULOS, HORTALIÇAS E LEGUMES FRESCOS",
     risco: "MÉDIO",
     compreende: [
       "Estabelecimento comercial atacadista de produtos hortifrutigranjeiros.",
       "Produtos frescos submetidos a processos iniciais como descascamento, desconchamento e ou remoção das partes não comestíveis.",
-      "Contratação de local de armazenamento e depósito fechado de hortifrutis minimamente processados."
+      "Contratação de local de armazenamento e depósito fechado de hortifrutis minimamente processados.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 36, 38, 39, 40, 43, 46]
-    }
+      durante: [23, 29, 36, 38, 39, 40, 43, 46],
+    },
   },
   {
     cnae: "4633-8/02",
     descricao: "COMÉRCIO ATACADISTA DE AVES VIVAS E OVOS",
     risco: "MÉDIO",
     compreende: [
-      "Estabelecimento comercial atacadista de ovos, contratação de local de armazenamento terceirizado e depósitos fechados de ovos."
+      "Estabelecimento comercial atacadista de ovos, contratação de local de armazenamento terceirizado e depósitos fechados de ovos.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 36, 38, 39, 40, 43, 46]
-    }
+      durante: [23, 29, 36, 38, 39, 40, 43, 46],
+    },
   },
   {
     cnae: "4634-6/01",
@@ -1988,224 +1991,228 @@ const activities = [
     compreende: [
       "Comércio atacadista e armazenamento de carne de bovinos e suínos fresca, frigorificada ou congelada.",
       "Carne preparada de bovinos e suínos, seca, salgada e produtos de salsicharia.",
-      "Contratação de local de armazenamento e depósito fechado das carnes e embutidos citados."
+      "Contratação de local de armazenamento e depósito fechado das carnes e embutidos citados.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 36, 38, 39, 40, 43, 46]
-    }
+      durante: [23, 29, 36, 38, 39, 40, 43, 46],
+    },
   },
   {
     cnae: "4634-6/02",
     descricao: "COMÉRCIO ATACADISTA DE AVES ABATIDAS E DERIVADOS",
     risco: "MÉDIO",
     compreende: [
-      "Estabelecimento comercial atacadista, contratação de local de armazenamento ou depósito fechado de aves abatidas frescas, frigorificadas, congeladas e seus derivados."
+      "Estabelecimento comercial atacadista, contratação de local de armazenamento ou depósito fechado de aves abatidas frescas, frigorificadas, congeladas e seus derivados.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 36, 38, 39, 40, 43, 46]
-    }
+      durante: [23, 29, 36, 38, 39, 40, 43, 46],
+    },
   },
   {
     cnae: "4634-6/03",
     descricao: "COMÉRCIO ATACADISTA DE PESCADO E FRUTOS DO MAR",
     risco: "MÉDIO",
     compreende: [
-      "Estabelecimento comercial atacadista, contratação de local de armazenamento ou depósito fechado de peixes e outros frutos do mar frescos, frigorificados ou congelados."
+      "Estabelecimento comercial atacadista, contratação de local de armazenamento ou depósito fechado de peixes e outros frutos do mar frescos, frigorificados ou congelados.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 36, 38, 39, 40, 43, 46]
-    }
+      durante: [23, 29, 36, 38, 39, 40, 43, 46],
+    },
   },
   {
     cnae: "4634-6/99",
     descricao: "COMÉRCIO ATACADISTA DE CARNES E DERIVADOS DE OUTROS ANIMAIS",
     risco: "MÉDIO",
     compreende: [
-      "Atacadista, contratação de armazenamento ou depósito fechado de carnes e derivados de caprinos, ovinos, equídeos e outros animais."
+      "Atacadista, contratação de armazenamento ou depósito fechado de carnes e derivados de caprinos, ovinos, equídeos e outros animais.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 36, 38, 39, 40, 43, 46]
-    }
+      durante: [23, 29, 36, 38, 39, 40, 43, 46],
+    },
   },
   {
     cnae: "4635-4/01",
     descricao: "COMÉRCIO ATACADISTA DE ÁGUA MINERAL",
     risco: "MÉDIO",
     compreende: [
-      "Atacadista distribuidor, contratação de local de armazenamento e depósitos fechados de água mineral envasada."
+      "Atacadista distribuidor, contratação de local de armazenamento e depósitos fechados de água mineral envasada.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 36, 38, 39, 40, 43, 46]
-    }
+      durante: [23, 29, 36, 38, 39, 40, 43, 46],
+    },
   },
   {
     cnae: "4635-4/02",
     descricao: "COMÉRCIO ATACADISTA DE CERVEJA, CHOPE E REFRIGERANTE",
     risco: "MÉDIO",
     compreende: [
-      "Estabelecimento comercial atacadista, contratação de local de armazenamento e depósito fechado de cervejas, chopes e refrigerantes."
+      "Estabelecimento comercial atacadista, contratação de local de armazenamento e depósito fechado de cervejas, chopes e refrigerantes.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 36, 38, 39, 40, 43, 46]
-    }
+      durante: [23, 29, 36, 38, 39, 40, 43, 46],
+    },
   },
   {
     cnae: "4635-4/99",
     descricao: "COMÉRCIO ATACADISTA DE BEBIDAS NÃO ESPECIFICADAS ANTERIORMENTE",
     risco: "MÉDIO",
     compreende: [
-      "Atacadista de outras bebidas alcoólicas (vinho, cachaça, destilados) e não alcoólicas (sucos, chás), incluindo contratação de armazenagem e depósitos fechados."
+      "Atacadista de outras bebidas alcoólicas (vinho, cachaça, destilados) e não alcoólicas (sucos, chás), incluindo contratação de armazenagem e depósitos fechados.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 36, 38, 39, 40, 43, 46]
-    }
+      durante: [23, 29, 36, 38, 39, 40, 43, 46],
+    },
   },
   {
     cnae: "4637-1/01",
     descricao: "COMÉRCIO ATACADISTA DE CAFÉ TORRADO, MOÍDO E SOLÚVEL",
     risco: "MÉDIO",
     compreende: [
-      "Atacadista, contratação de local de armazenamento e depósitos fechados de café torrado, moído e solúvel."
+      "Atacadista, contratação de local de armazenamento e depósitos fechados de café torrado, moído e solúvel.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 36, 38, 39, 40, 43, 46]
-    }
+      durante: [23, 29, 36, 38, 39, 40, 43, 46],
+    },
   },
   {
     cnae: "4637-1/02",
     descricao: "COMÉRCIO ATACADISTA DE AÇÚCAR",
     risco: "MÉDIO",
     compreende: [
-      "Atacadista, contratação de local de armazenamento e depósitos fechados de açúcares industriais."
+      "Atacadista, contratação de local de armazenamento e depósitos fechados de açúcares industriais.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 36, 38, 39, 40, 43, 46]
-    }
+      durante: [23, 29, 36, 38, 39, 40, 43, 46],
+    },
   },
   {
     cnae: "4637-1/03",
     descricao: "COMÉRCIO ATACADISTA DE ÓLEOS E GORDURAS",
     risco: "MÉDIO",
     compreende: [
-      "Atacadista de óleos refinados e gorduras de origem animal ou vegetal, incluindo contratação de estocagem e depósitos fechados."
+      "Atacadista de óleos refinados e gorduras de origem animal ou vegetal, incluindo contratação de estocagem e depósitos fechados.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 36, 38, 39, 40, 43, 46]
-    }
+      durante: [23, 29, 36, 38, 39, 40, 43, 46],
+    },
   },
   {
     cnae: "4637-1/04",
     descricao: "COMÉRCIO ATACADISTA DE PÃES, BOLOS, BISCOITOS E SIMILARES",
     risco: "MÉDIO",
     compreende: [
-      "Atacadista, contratação de local de armazenamento e depósitos fechados de pães, bolos, biscoitos e produtos similares de panificação."
+      "Atacadista, contratação de local de armazenamento e depósitos fechados de pães, bolos, biscoitos e produtos similares de panificação.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 36, 38, 39, 40, 43, 46]
-    }
+      durante: [23, 29, 36, 38, 39, 40, 43, 46],
+    },
   },
   {
     cnae: "4637-1/05",
     descricao: "COMÉRCIO ATACADISTA DE MASSAS ALIMENTÍCIAS",
     risco: "MÉDIO",
     compreende: [
-      "Atacadista, contratação de local de armazenamento e depósitos fechados de massas alimentícias em geral."
+      "Atacadista, contratação de local de armazenamento e depósitos fechados de massas alimentícias em geral.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 36, 38, 39, 40, 43, 46]
-    }
+      durante: [23, 29, 36, 38, 39, 40, 43, 46],
+    },
   },
   {
     cnae: "4637-1/06",
     descricao: "COMÉRCIO ATACADISTA DE SORVETES",
     risco: "MÉDIO",
     compreende: [
-      "Atacadista, contratação de armazenamento ou depósito de sorvetes, picolés, tortas geladas e similares."
+      "Atacadista, contratação de armazenamento ou depósito de sorvetes, picolés, tortas geladas e similares.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 36, 38, 39, 40, 43, 46]
-    }
+      durante: [23, 29, 36, 38, 39, 40, 43, 46],
+    },
   },
   {
     cnae: "4637-1/07",
-    descricao: "COMÉRCIO ATACADISTA DE CHOCOLATES, CONFEITOS, BALAS, BOMBONS E SEMELHANTES",
+    descricao:
+      "COMÉRCIO ATACADISTA DE CHOCOLATES, CONFEITOS, BALAS, BOMBONS E SEMELHANTES",
     risco: "MÉDIO",
     compreende: [
-      "Atacadista, contratação de armazenamento ou depósito de chocolates, confeitos, balas, bombons e doces semelhantes."
+      "Atacadista, contratação de armazenamento ou depósito de chocolates, confeitos, balas, bombons e doces semelhantes.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 36, 38, 39, 40, 43, 46]
-    }
+      durante: [23, 29, 36, 38, 39, 40, 43, 46],
+    },
   },
   {
     cnae: "4637-1/99",
-    descricao: "COMÉRCIO ATACADISTA ESPECIALIZADO EM OUTROS PRODUTOS ALIMENTÍCIOS NÃO ESPECIFICADOS ANTERIORMENTE",
+    descricao:
+      "COMÉRCIO ATACADISTA ESPECIALIZADO EM OUTROS PRODUTOS ALIMENTÍCIOS NÃO ESPECIFICADOS ANTERIORMENTE",
     risco: "ALTO_MÉDIO",
     compreende: [
       "Atacadista de chás, mel, sucos, condimentos, vinagres, adoçantes e conservas hortifrutis (Risco Médio).",
       "Alimentos preparados em fritura e congelados para micro-ondas (Risco Médio).",
       "Importação e comércio atacadista de suplementos alimentares, aditivos alimentares e alimentos com alegação de propriedade funcional ou fins especiais (Risco Alto).",
-      "Contratação de armazenamento e depósitos fechados específicos para produtos de Risco Alto ou Risco Médio."
+      "Contratação de armazenamento e depósitos fechados específicos para produtos de Risco Alto ou Risco Médio.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46]
-    }
+      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46],
+    },
   },
   {
     cnae: "4639-7/01",
     descricao: "COMÉRCIO ATACADISTA DE PRODUTOS ALIMENTÍCIOS EM GERAL",
     risco: "MÉDIO",
     compreende: [
-      "Estabelecimento comercial atacadista, contratação de local de armazenamento terceirizado e depósito fechado de produtos alimentícios em geral."
+      "Estabelecimento comercial atacadista, contratação de local de armazenamento terceirizado e depósito fechado de produtos alimentícios em geral.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 36, 38, 39, 40, 43, 46]
-    }
+      durante: [23, 29, 36, 38, 39, 40, 43, 46],
+    },
   },
   {
     cnae: "4686-9/02",
     descricao: "COMÉRCIO ATACADISTA DE EMBALAGENS",
     risco: "MÉDIO",
     compreende: [
-      "Importação, comercialização, contratação de armazenamento e depósito fechado de embalagens destinadas a entrar em contato com alimentos."
+      "Importação, comercialização, contratação de armazenamento e depósito fechado de embalagens destinadas a entrar em contato com alimentos.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 31, 32, 33, 38, 39, 40, 43, 45]
-    }
+      durante: [23, 29, 31, 32, 33, 38, 39, 40, 43, 45],
+    },
   },
   {
     cnae: "4691-5/00",
-    descricao: "COMÉRCIO ATACADISTA DE MERCADORIAS EM GERAL, COM PREDOMINÂNCIA DE PRODUTOS ALIMENTÍCIOS",
+    descricao:
+      "COMÉRCIO ATACADISTA DE MERCADORIAS EM GERAL, COM PREDOMINÂNCIA DE PRODUTOS ALIMENTÍCIOS",
     risco: "MÉDIO",
     compreende: [
       "Atacadista de mercadorias gerais com predominância de alimentos, incluindo contratação de armazenamento e depósitos fechados.",
-      "Montagem de cestas básicas com produtos alimentícios não perecíveis, industrializados e previamente embalados."
+      "Montagem de cestas básicas com produtos alimentícios não perecíveis, industrializados e previamente embalados.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 38, 39, 40, 43]
-    }
+      durante: [23, 29, 38, 39, 40, 43],
+    },
   },
   {
     cnae: "4649-4/08",
-    descricao: "COMÉRCIO ATACADISTA DE PRODUCTS DE HIGIENE, LIMPEZA E CONSERVAÇÃO DOMICILIAR",
+    descricao:
+      "COMÉRCIO ATACADISTA DE PRODUCTS DE HIGIENE, LIMPEZA E CONSERVAÇÃO DOMICILIAR",
     risco: "ALTO",
     compreende: [
       "Estabelecimento comercial atacadista de produtos saneantes e domissanitários para limpeza geral e afins (alvejantes, branqueadores, desincrustrantes, saponáceos, amaciantes, ceras, limpadores, removedores, sabões e detergentes).",
@@ -2213,62 +2220,65 @@ const activities = [
       "Estabelecimento comercial atacadista de produtos saneantes domissanitários neutralizadores, eliminadores, odorizantes ou aromatizantes de ambientes.",
       "Estabelecimento comercial atacadista de produtos saneantes domissanitários biológicos para uso profissional.",
       "Estabelecimento comercial atacadista de desinfestantes domissanitários (inseticidas, repelentes, rodenticidas) e de produtos para jardinagem amadora.",
-      "Estabelecimento comercial atacadista que contrata local de armazenamento ou possui depósito fechado para qualquer um dos produtos saneantes e domissanitários citados."
+      "Estabelecimento comercial atacadista que contrata local de armazenamento ou possui depósito fechado para qualquer um dos produtos saneantes e domissanitários citados.",
     ],
     documentos: {
       previos: [], // Consta estritamente como N.A. em todos os blocos da atividade
-      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 60]
-    }
+      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 43, 45, 46, 60],
+    },
   },
   {
     cnae: "4711-3/01",
-    descricao: "COMÉRCIO VAREJISTA DE MERCADORIAS EM GERAL, COM PREDOMINANCIA DE PRODUTOS ALIMENTÍCIOS - HIPERMERCADOS",
+    descricao:
+      "COMÉRCIO VAREJISTA DE MERCADORIAS EM GERAL, COM PREDOMINANCIA DE PRODUTOS ALIMENTÍCIOS - HIPERMERCADOS",
     risco: "MÉDIO",
     compreende: [
       "Estabelecimento comercial com venda predominante de produtos alimentícios variados e outras mercadorias gerais com área de venda superior a 5.000 metros quadrados.",
-      "Depósito fechado no qual se armazenam predominantemente os produtos alimentícios variados e mercadorias correlatas do hipermercado."
+      "Depósito fechado no qual se armazenam predominantemente os produtos alimentícios variados e mercadorias correlatas do hipermercado.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 38, 39, 40, 43]
-    }
+      durante: [23, 29, 38, 39, 40, 43],
+    },
   },
   {
     cnae: "4711-3/02",
-    descricao: "COMÉRCIO VAREJISTA DE MERCADORIAS EM GERAL, COM PREDOMINANCIA DE PRODUTOS ALIMENTÍCIOS - SUPERMERCADOS",
+    descricao:
+      "COMÉRCIO VAREJISTA DE MERCADORIAS EM GERAL, COM PREDOMINANCIA DE PRODUTOS ALIMENTÍCIOS - SUPERMERCADOS",
     risco: "MÉDIO",
     compreende: [
       "Estabelecimento comercial com venda predominante de produtos alimentícios variados e outras mercadorias gerais com área de venda entre 300 a 5.000 metros quadrados.",
-      "Depósito fechado no qual se armazenam predominantemente os produtos alimentícios variados e mercadorias correlatas do supermercado."
+      "Depósito fechado no qual se armazenam predominantemente os produtos alimentícios variados e mercadorias correlatas do supermercado.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 38, 39, 40, 43]
-    }
+      durante: [23, 29, 38, 39, 40, 43],
+    },
   },
   {
     cnae: "4712-1/00",
-    descricao: "COMÉRCIO VAREJISTA DE MERCADORIAS EM GERAL, COM PREDOMINANCIA DE PRODUTOS ALIMENTÍCIOS – MINIMERCADOS, MERCEARIAS E ARMAZÉNS",
+    descricao:
+      "COMÉRCIO VAREJISTA DE MERCADORIAS EM GERAL, COM PREDOMINANCIA DE PRODUTOS ALIMENTÍCIOS – MINIMERCADOS, MERCEARIAS E ARMAZÉNS",
     risco: "MÉDIO",
     compreende: [
-      "Minimercados, mercearias, armazéns, empórios e secos e molhados com área de venda inferior a 300 metros quadrados, que possuem açougue e/ou peixaria e/ou padaria com manipulação no local."
+      "Minimercados, mercearias, armazéns, empórios e secos e molhados com área de venda inferior a 300 metros quadrados, que possuem açougue e/ou peixaria e/ou padaria com manipulação no local.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 38, 39, 40]
-    }
+      durante: [23, 29, 38, 39, 40],
+    },
   },
   {
     cnae: "4721-1/02",
     descricao: "PADARIA E CONFEITARIA COM PREDOMINANCIA DE REVENDA",
     risco: "MÉDIO",
     compreende: [
-      "Estabelecimento comercial varejista de pães, roscas, bolos, tortas e outros produtos de padaria quando a revenda de itens de terceiros é predominante."
+      "Estabelecimento comercial varejista de pães, roscas, bolos, tortas e outros produtos de padaria quando a revenda de itens de terceiros é predominante.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 38, 39, 40]
-    }
+      durante: [23, 29, 38, 39, 40],
+    },
   },
   {
     cnae: "4721-1/03",
@@ -2276,12 +2286,12 @@ const activities = [
     risco: "MÉDIO",
     compreende: [
       "Estabelecimento comercial varejista de leite, derivados (manteiga, creme de leite, iogurte, coalhada) e frios / carnes conservadas.",
-      "Estabelecimento comercial varejista de conservas de frutas, legumes, verduras e produtos similares."
+      "Estabelecimento comercial varejista de conservas de frutas, legumes, verduras e produtos similares.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 38, 39, 40]
-    }
+      durante: [23, 29, 38, 39, 40],
+    },
   },
   {
     cnae: "4722-9/01",
@@ -2289,36 +2299,36 @@ const activities = [
     risco: "MÉDIO",
     compreende: [
       "Estabelecimento comercial varejista de carnes de bovino, suíno, caprino, ovino e equídeo frescas, frigorificadas e ou congeladas.",
-      "Estabelecimento comercial varejista de aves e pequenos animais abatidos (coelhos, patos, perus, galinhas) frescos ou congelados."
+      "Estabelecimento comercial varejista de aves e pequenos animais abatidos (coelhos, patos, perus, galinhas) frescos ou congelados.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 38, 39, 40]
-    }
+      durante: [23, 29, 38, 39, 40],
+    },
   },
   {
     cnae: "4722-9/02",
     descricao: "PEIXARIA",
     risco: "MÉDIO",
     compreende: [
-      "Estabelecimento comercial varejista de pescados, crustáceos e moluscos frescos, congelados, conservados ou frigorificados."
+      "Estabelecimento comercial varejista de pescados, crustáceos e moluscos frescos, congelados, conservados ou frigorificados.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 38, 39, 40]
-    }
+      durante: [23, 29, 38, 39, 40],
+    },
   },
   {
     cnae: "5510-8/01",
     descricao: "HOTÉIS",
     risco: "MÉDIO",
     compreende: [
-      "Atividade de hotéis e pousadas combinadas com o serviço de alimentação que seja aberto ao público externo."
+      "Atividade de hotéis e pousadas combinadas com o serviço de alimentação que seja aberto ao público externo.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 38, 39, 40]
-    }
+      durante: [23, 29, 38, 39, 40],
+    },
   },
   {
     cnae: "5611-2/01",
@@ -2326,12 +2336,12 @@ const activities = [
     risco: "MÉDIO",
     compreende: [
       "Manipular, preparar, armazenar, vender e servir comida com ou sem bebida ao público (pizzarias, churrascarias, self-service ou comida a quilo).",
-      "Restaurante e ou bar operando em embarcações exploradas por terceiros."
+      "Restaurante e ou bar operando em embarcações exploradas por terceiros.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 38, 39, 40]
-    }
+      durante: [23, 29, 38, 39, 40],
+    },
   },
   {
     cnae: "5611-2/03",
@@ -2339,63 +2349,312 @@ const activities = [
     risco: "MÉDIO",
     compreende: [
       "Serviço de alimentação para consumo no local, englobando lanchonetes, cafeterias, casas de caldo de cana, chá, doces, salgados e sucos.",
-      "Fast-food, pastelarias, pizzarias tipo fast-food e sorveterias com consumo no local (de fabricação própria ou não)."
+      "Fast-food, pastelarias, pizzarias tipo fast-food e sorveterias com consumo no local (de fabricação própria ou não).",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 38, 39, 40]
-    }
+      durante: [23, 29, 38, 39, 40],
+    },
   },
   {
     cnae: "5620-1/01",
-    descricao: "FORNECIMENTO DE ALIMENTOS PREPARADOS PREPONDERANTEMENTE PARA EMPRESAS",
+    descricao:
+      "FORNECIMENTO DE ALIMENTOS PREPARADOS PREPONDERANTEMENTE PARA EMPRESAS",
     risco: "ALTO", // Cozinha industrial e Catering sob contrato é classificado como Risco III (Alto)
     compreende: [
       "Cozinha industrial que fornece alimentos sob contrato para instituições públicas/privadas, hospitais e indústrias, utilizando as instalações do contratante.",
-      "Preparação de refeições em cozinha central (catering) para empresas de linhas aéreas, transporte, cantinas e serviços privativos de alimentação."
+      "Preparação de refeições em cozinha central (catering) para empresas de linhas aéreas, transporte, cantinas e serviços privativos de alimentação.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 45, 46]
-    }
+      durante: [23, 29, 31, 32, 33, 36, 38, 39, 40, 45, 46],
+    },
   },
   {
     cnae: "5620-1/02",
     descricao: "SERVIÇOS DE ALIMENTAÇÃO PARA EVENTOS E RECEPÇÕES - BUFÊ",
     risco: "MÉDIO",
     compreende: [
-      "Serviço de Bufê com fornecimento de alimentação para banquetes, coquetéis e recepções com preparo em instalação própria."
+      "Serviço de Bufê com fornecimento de alimentação para banquetes, coquetéis e recepções com preparo em instalação própria.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 38, 39, 40]
-    }
+      durante: [23, 29, 38, 39, 40],
+    },
   },
   {
     cnae: "5620-1/03",
     descricao: "CANTINAS - SERVIÇOS DE ALIMENTAÇÃO PRIVATIVOS",
     risco: "MÉDIO",
     compreende: [
-      "Serviço de alimentação varejista em caráter privativo (terceirizado ou próprio) para grupos restritos em fábricas, universidades, colégios, associações ou órgãos públicos."
+      "Serviço de alimentação varejista em caráter privativo (terceirizado ou próprio) para grupos restritos em fábricas, universidades, colégios, associações ou órgãos públicos.",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 38, 39, 40]
-    }
+      durante: [23, 29, 38, 39, 40],
+    },
   },
   {
     cnae: "5620-1/04",
-    descricao: "FORNECIMENTO DE ALIMENTOS PREPARADOS PREPONDERANTEMENTE PARA CONSUMO DOMICILIAR",
+    descricao:
+      "FORNECIMENTO DE ALIMENTOS PREPARADOS PREPONDERANTEMENTE PARA CONSUMO DOMICILIAR",
     risco: "MÉDIO",
     compreende: [
       "Preparação de refeições ou pratos cozidos/congelados entregues ou servidos em domicílio (marmitarias).",
       "Pizzarias sem consumo local operando exclusivamente em sistema de delivery.",
-      "Rotisseria (loja especializada em refeições, antepastos, frios, saladas, molhos e sobremesas para consumo domiciliar)."
+      "Rotisseria (loja especializada em refeições, antepastos, frios, saladas, molhos e sobremesas para consumo domiciliar).",
     ],
     documentos: {
       previos: [],
-      durante: [23, 29, 38, 39, 40]
-    }
+      durante: [23, 29, 38, 39, 40],
+    },
+  },
+  {
+    cnae: "8622-4/00",
+    descricao:
+      "SERVIÇOS DE REMOÇÃO DE PACIENTES, EXCETO OS SERVIÇOS MÓVEIS DE ATENDIMENTO A URGÊNCIAS",
+    risco: "MÉDIO",
+    compreende: [
+      "Estabelecimento prestador de serviço exclusivo de transporte e remoção de pacientes, de caráter eletivo, em unidade móvel classificada como Ambulância tipo A.",
+    ],
+    documentos: {
+      previos: [],
+      durante: [23, 29, 31, 32, 38, 39, 40, 41, 46],
+    },
+  },
+  {
+    cnae: "8640-2/08",
+    descricao:
+      "SERVIÇOS DE DIAGNÓSTICO POR REGISTRO GRÁFICO, ECG, EEG E OUTROS EXAMES ANÁLOGOS",
+    risco: "MÉDIO",
+    compreende: [
+      "Estabelecimento no qual se presta serviço de diagnóstico por registro gráfico (ECG, EEG e outros exames análogos).",
+    ],
+    documentos: {
+      previos: [],
+      durante: [21, 23, 29, 31, 32, 36, 38, 39, 40, 41, 46],
+    },
+  },
+  {
+    cnae: "8650-0/01",
+    descricao: "ATIVIDADES DE ENFERMAGEM",
+    risco: "MÉDIO",
+    compreende: [
+      "Estabelecimento ou consultório no qual enfermeiro presta assistência de enfermagem.",
+    ],
+    documentos: {
+      previos: [],
+      durante: [21, 23, 26, 27, 29, 31, 32, 33, 38, 39, 40, 41, 45, 46],
+    },
+  },
+  {
+    cnae: "8650-0/99",
+    descricao:
+      "ATIVIDADES DE PROFISSIONAIS DA ÁREA DE SAÚDE NÃO ESPECIFICADAS ANTERIORMENTE",
+    risco: "MÉDIO",
+    compreende: [
+      "Estabelecimento ou consultório isolado no qual se presta assistência por optometrista de nível superior.",
+    ],
+    documentos: {
+      previos: [],
+      durante: [21, 23, 26, 27, 29, 38, 39, 40, 41, 45, 46],
+    },
+  },
+  {
+    cnae: "8690-9/03",
+    descricao: "ATIVIDADES DE ACUPUNTURA",
+    risco: "MÉDIO",
+    compreende: [
+      "Estabelecimento ou consultório isolado no qual se exercem atividades de acupuntura por profissionais habilitados.",
+    ],
+    documentos: {
+      previos: [],
+      durante: [21, 23, 26, 27, 29, 38, 39, 40, 41, 46],
+    },
+  },
+  {
+    cnae: "8690-9/04",
+    descricao: "ATIVIDADES DE PODOLOGIA",
+    risco: "MÉDIO",
+    compreende: [
+      "Estabelecimento ou consultório isolado no qual se presta serviço de podologia.",
+    ],
+    documentos: {
+      previos: [],
+      durante: [21, 23, 26, 27, 29, 38, 39, 40, 41, 46],
+    },
+  },
+  {
+    cnae: "3812-2/00",
+    descricao: "COLETA DE RESÍDUOS PERIGOSOS",
+    risco: "MÉDIO",
+    compreende: [
+      "Estabelecimento no qual se prestam serviços de coleta, transporte e transbordo de resíduos de serviços de saúde perigosos, de quaisquer tipos, em qualquer estado físico.",
+    ],
+    documentos: {
+      previos: [],
+      durante: [23, 29, 31, 32, 36, 38, 39, 40, 46],
+    },
+  },
+  {
+    cnae: "8591-1/00",
+    descricao: "ENSINO DE ESPORTES",
+    risco: "MÉDIO",
+    compreende: [
+      "Estabelecimento de ensino de esportes praticados em piscinas.",
+    ],
+    documentos: {
+      previos: [],
+      durante: [21, 23, 26, 29, 31, 32, 38, 39, 40],
+    },
+  },
+  {
+    cnae: "8730-1/01",
+    descricao: "ORFANATOS",
+    risco: "MÉDIO",
+    compreende: [
+      "Estabelecimento de assistência social às crianças em regime de internato, quando o tratamento médico não constitui o elemento central deste atendimento.",
+    ],
+    documentos: {
+      previos: [],
+      durante: [21, 23, 26, 29, 38, 39, 40],
+    },
+  },
+  {
+    cnae: "8730-1/02",
+    descricao: "ALBERGUES ASSISTENCIAIS",
+    risco: "MÉDIO",
+    compreende: [
+      "Estabelecimento no qual se exercem atividades de assistência social à adultos desabrigados temporariamente e às outras categorias.",
+      "Asilo para desabrigados, Casa de Apoio (tipo I para HIV/AIDS), Casa de solidariedade, Casa de triagem e Casa transitória.",
+    ],
+    documentos: {
+      previos: [],
+      durante: [23, 29, 38, 39, 40],
+    },
+  },
+  {
+    cnae: "9312-3/00",
+    descricao: "CLUBES SOCIAIS, DESPORTIVOS E SIMILARES",
+    risco: "MÉDIO",
+    compreende: [
+      "Clube social que possibilita a prática de atividades e esportes em piscinas, como recreação, natação, hidroginástica, polo-aquático, entre outros.",
+    ],
+    documentos: {
+      previos: [],
+      durante: [21, 23, 26, 29, 31, 32, 38, 39, 40],
+    },
+  },
+  {
+    cnae: "9321-2/00",
+    descricao: "PARQUES DE DIVERSÕES E PARQUES TEMÁTICOS",
+    risco: "MÉDIO",
+    compreende: ["Parque aquático."],
+    documentos: {
+      previos: [],
+      durante: [23, 29, 31, 32, 38, 39, 40],
+    },
+  },
+  {
+    cnae: "9603-3/99",
+    descricao:
+      "ATIVIDADES FUNERÁRIAS E SERVIÇOS RELACIONADOS NÃO ESPECIFICADOS ANTERIORMENTE",
+    risco: "ALTO_MÉDIO",
+    compreende: [
+      "Estabelecimentos que prestam atividades de remoção de cadáveres humanos e serviço de higienização/maquiagem (Risco Médio).",
+      "Estabelecimento que presta atividades de necropsia de humanos como, Serviço de Verificação de Óbito (SVO) e Instituto Médico Legal (IML) (Risco Alto).",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 7, 8, 9], // Aplicáveis ao Serviço de Necropsia/IML
+      durante: [23, 29, 38, 39, 40, 52],
+    },
+  },
+  {
+    cnae: "3250-7/03",
+    descricao:
+      "FABRICAÇÃO DE APARELHOS E UTENSÍLIOS PARA CORREÇÃO DE DEFEITOS FÍSICOS E APARELHOS ORTOPÉDICOS EM GERAL, SOB ENCOMENDA",
+    risco: "ALTO",
+    compreende: [
+      "Estabelecimento fabricante de aparelhos e instrumentos para correção de defeitos físicos, membros artificiais e aparelhos ortopédicos em geral, sob encomenda.",
+      "Estabelecimento fabricante de calçados ortopédicos de qualquer material, sob encomenda.",
+    ],
+    documentos: {
+      previos: [2, 3, 4, 5, 6, 9],
+      durante: [21, 23, 27, 29, 33, 38, 39, 40, 44, 52],
+    },
+  },
+  {
+    cnae: "3250-7/06",
+    descricao: "SERVIÇOS DE PRÓTESE DENTÁRIA",
+    risco: "MÉDIO",
+    compreende: ["Laboratório de prótese dentária."],
+    documentos: {
+      previos: [],
+      durante: [21, 23, 27, 29, 31, 32, 38, 39, 40, 45],
+    },
+  },
+  {
+    cnae: "4774-1/00",
+    descricao: "COMÉRCIO VAREJISTA DE ARTIGOS DE ÓTICA",
+    risco: "MÉDIO",
+    compreende: [
+      "Ótica com montagem de lentes oftálmicas com grau sob prescrição.",
+      "Estabelecimento comercial varejista de artigos ópticos, inclusive os de lentes de contato descartáveis.",
+    ],
+    documentos: {
+      previos: [],
+      durante: [21, 23, 26, 27, 29, 38, 39, 40],
+    },
+  },
+  {
+    cnae: "9313-1/00",
+    descricao: "ATIVIDADES DE CONDICIONAMENTO FÍSICO",
+    risco: "MÉDIO",
+    compreende: ["Academia com atividades de hidroginástica."],
+    documentos: {
+      previos: [],
+      durante: [21, 23, 26, 27, 29, 31, 32, 38, 39, 40, 45],
+    },
+  },
+  {
+    cnae: "9601-7/03",
+    descricao: "TOALHEIROS",
+    risco: "ALTO",
+    compreende: [
+      "Lavanderias que processam roupas hospitalares autônomas e independentes de outro estabelecimento.",
+    ],
+    documentos: {
+      previos: [],
+      durante: [23, 27, 29, 38, 39, 40],
+    },
+  },
+  {
+    cnae: "9602-5/01",
+    descricao: "CABELEIREIROS, MANICURE, PEDICURE E BARBEARIA",
+    risco: "MÉDIO",
+    compreende: [
+      "Estabelecimento que presta atividades de lavagem, corte, penteado, tingimento e outros tratamentos de cabelo.",
+      "Estabelecimento que presta serviços de manicure, pedicure e barbearia.",
+    ],
+    documentos: {
+      previos: [],
+      durante: [21, 23, 26, 27, 29, 38, 39, 40],
+    },
+  },
+  {
+    cnae: "8412-4/00",
+    descricao:
+      "REGULAÇÃO DAS ATIVIDADES DE SAÚDE, EDUCAÇÃO, SERVIÇOS CULTURAIS E OUTROS SERVIÇOS SOCIAIS",
+    risco: "ALTO_MÉDIO",
+    compreende: [
+      "Estabelecimento público de armazenamento e expedição (almoxarifado) de produtos regulados pela Vigilância Sanitária para o SUS (Risco Alto).",
+      "Estabelecimento público de dispensação de medicamentos (Assistência Farmacêutica e Talidomida) e determinações judiciais (Risco Alto).",
+      "Estabelecimento integrante de programas de erradicação da fome (Banco de Alimentos) (Risco Médio).",
+    ],
+    documentos: {
+      previos: [],
+      durante: [23, 40, 43, 51],
+    },
   },
 ];
 
