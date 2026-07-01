@@ -50,6 +50,7 @@ function App() {
           <div className="py-3 px-4 bg-[rgba(0,0,0,.03)] border-b border-[rgba(0,0,0,.125)] text-center">
             <h3 className="text-[1.75rem] font-medium leading-tight m-0">Docs VISA - Licença Sanitária</h3>
             <p className="text-[#6c757d] text-center m-0 mt-2">Busca de Documentos Exigidos para Licenciamento</p>
+            <p><span>Conforme <a href="https://cvs.saude.sp.gov.br/" class="text-blue-500 hover:text-blue-700" target="_blank" rel="noopener noreferrer">Portaria CVS 1 de 2024</a>, atualizada em 13/05/2026.</span></p>
           </div>
 
           <div className="p-4 flex-auto">
